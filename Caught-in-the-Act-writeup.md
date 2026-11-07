@@ -1,8 +1,8 @@
-**Author**: Reven
-**Platform**: OSINT Industries CTF
-**Category**: OSINT/GEOINT
-**Tools**: ExifTool, Yandex, CleanUp and Imagetolocation
-**Flag**: OSINT{"bond_university_robina"}
+- **Author:** Reven
+- **Platform:** OSINT Industries CTF
+- **Category:** OSINT / GEOINT
+- **Tools:** ExifTool, Yandex, CleanUp, ImageToLocation
+- **Flag:** `OSINT{"bond_university_robina"}`
 
 **1. Challenge Description**
 
