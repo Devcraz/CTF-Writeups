@@ -37,5 +37,5 @@ The first four flags I tried were rejected, due to format and a small mistake we
 **The format** The CTF itself gave you the example: **OSINT{"harvard_university_cambridge"}**. We didn't put the double quotes because most CTFs don't use them, but in this one they were mandatory. By not including them, the system that validated the flags rejected the flag format as invalid.
 
 **Images**
-https://github.com/Devcraz/CTF-Writeups/blob/main/Caught-in-the-Act/location-map.png?raw=true
-https://github.com/Devcraz/CTF-Writeups/blob/main/Caught-in-the-Act/target-CTF.jpeg?raw=true
+![Original challenge image](./Caught-in-the-Act/target-CTF.jpeg)
+![Location map](./Caught-in-the-Act/location-map.png)
