@@ -24,18 +24,14 @@ With these lines Yandex presented false positives which complicated the search. 
 After the failures with exiftool and yandex I decided to use ImageToLocation which is an AI-based geolocation tool that analyzes visual context to deduce locations. 
 ImageToLocation had no problems deducing the exact location of the image despite the annoying lines contained in the photo. And I mark the location exactly on the map.
 
-**5. Phase 4: The Solution **
+### 5. Phase 4: The Solution
 
-The first four flags I tried were rejected, due to format and a small mistake we made. The flags tested were: 
-*OSINT{bond_university_gold_coast}*,
-*OSINT{bond_gold_coast}*,
-*OSINT{Bond_University_Gold_Coast}*,
-*OSINT{bond_university_goldcoast}*,
+The first four flags I tried were rejected, due to format and a small mistake we made. The flags tested were: `OSINT{bond_university_gold_coast}`, `OSINT{bond_gold_coast}`, `OSINT{Bond_University_Gold_Coast}`, `OSINT{bond_university_goldcoast}`.
 
 **Why did they fail?**
-**The name of the city** ImageToLocation detected that it was on the Gold Coast but the challenge was designed so that we were specific and asked for the exact suburb or district (Robina).
-**The format** The CTF itself gave you the example: **OSINT{"harvard_university_cambridge"}**. We didn't put the double quotes because most CTFs don't use them, but in this one they were mandatory. By not including them, the system that validated the flags rejected the flag format as invalid.
 
+- **The name of the city:** ImageToLocation detected that it was on the Gold Coast, but the challenge was designed so that we were specific and asked for the exact suburb or district (Robina).
+- **The format:** The CTF itself gave you the example: `OSINT{"harvard_university_cambridge"}`. We didn't put the double quotes because most CTFs don't use them, but in this one they were mandatory. By not including them, the system that validated the flags rejected the flag format as invalid.
 
 ## Images
 
