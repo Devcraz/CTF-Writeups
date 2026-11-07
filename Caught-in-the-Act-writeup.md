@@ -27,14 +27,15 @@ ImageToLocation had no problems deducing the exact location of the image despite
 **5. Phase 4: The Solution **
 
 The first four flags I tried were rejected, due to format and a small mistake we made. The flags tested were: 
-*OSINT{bond_university_gold_coast}*
-*OSINT{bond_gold_coast}*
-*OSINT{Bond_University_Gold_Coast}*
-*OSINT{bond_university_goldcoast}*
+*OSINT{bond_university_gold_coast}*,
+*OSINT{bond_gold_coast}*,
+*OSINT{Bond_University_Gold_Coast}*,
+*OSINT{bond_university_goldcoast}*,
 
 **Why did they fail?**
 **The name of the city** ImageToLocation detected that it was on the Gold Coast but the challenge was designed so that we were specific and asked for the exact suburb or district (Robina).
 **The format** The CTF itself gave you the example: **OSINT{"harvard_university_cambridge"}**. We didn't put the double quotes because most CTFs don't use them, but in this one they were mandatory. By not including them, the system that validated the flags rejected the flag format as invalid.
 
 **Images**
-
+https://github.com/Devcraz/CTF-Writeups/blob/main/Caught-in-the-Act/location-map.png?raw=true
+https://github.com/Devcraz/CTF-Writeups/blob/main/Caught-in-the-Act/target-CTF.jpeg?raw=true
