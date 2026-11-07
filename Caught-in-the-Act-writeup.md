@@ -38,14 +38,17 @@ The first four flags I tried were rejected, due to format and a small mistake we
 
 **Images**
 
+## Images
+
 <p align="center">
   <img src="./Caught-in-the-Act/target-CTF.jpeg" width="500">
 </p>
 
 <br>
 
-**Images**
-
+<p align="center">
+  <img src="./Caught-in-the-Act/location-map.png" width="500">
+</p>
 <br>
 
 <p align="center">
