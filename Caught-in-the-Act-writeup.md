@@ -36,7 +36,6 @@ The first four flags I tried were rejected, due to format and a small mistake we
 **The name of the city** ImageToLocation detected that it was on the Gold Coast but the challenge was designed so that we were specific and asked for the exact suburb or district (Robina).
 **The format** The CTF itself gave you the example: **OSINT{"harvard_university_cambridge"}**. We didn't put the double quotes because most CTFs don't use them, but in this one they were mandatory. By not including them, the system that validated the flags rejected the flag format as invalid.
 
-**Images**
 
 ## Images
 
