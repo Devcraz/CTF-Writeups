@@ -37,5 +37,17 @@ The first four flags I tried were rejected, due to format and a small mistake we
 **The format** The CTF itself gave you the example: **OSINT{"harvard_university_cambridge"}**. We didn't put the double quotes because most CTFs don't use them, but in this one they were mandatory. By not including them, the system that validated the flags rejected the flag format as invalid.
 
 **Images**
-<img src="./Caught-in-the-Act/target-CTF.jpeg" width="500" alt="Original challenge image">
-<img src="./Caught-in-the-Act/location-map.png" width="500" alt="Location map">
+
+<p align="center">
+  <img src="./Caught-in-the-Act/target-CTF.jpeg" width="500">
+</p>
+
+<br>
+
+**Images**
+
+<br>
+
+<p align="center">
+  <img src="./Caught-in-the-Act/location-map.png" width="500">
+</p>
