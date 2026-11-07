@@ -49,8 +49,3 @@ The first four flags I tried were rejected, due to format and a small mistake we
 <p align="center">
   <img src="./Caught-in-the-Act/location-map.png" width="500">
 </p>
-<br>
-
-<p align="center">
-  <img src="./Caught-in-the-Act/location-map.png" width="500">
-</p>
